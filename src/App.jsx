@@ -10,6 +10,7 @@ export default function App() {
     { id: 5, name: "Muhammad Anas", value: 120 },
     { id: 6, name: "Ayesha Khan", value: 280 },
     { id: 7, name: "Hassan Ali", value: 165 },
+    { id: 8, name: "Shaukat Sohail", value: 170 },
   ]);
 
   const handleDeleteRow = useCallback((id) => {
