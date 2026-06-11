@@ -22,7 +22,6 @@ export default function DataTable({ rawData, onDeleteRow }) {
   const handleRowSelect = useCallback((id) => {
     setSelectedRows((prev) => {
       const next = new Set(prev);
-      console.log(next);
 
       next.has(id) ? next.delete(id) : next.add(id);
       return next;
